@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:minWidth="25dp"
+    p1:minHeight="25dp"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:background="@drawable/tatooine"
+    p1:id="@+id/tableLayout1">
+    <TableRow
+        p1:id="@+id/tableRow1">
+        <Button
+            p1:layout_column="3"
+            p1:id="@+id/one"
+            p1:layout_height="100dp"
+            p1:layout_width="100dp" />
+        <Button
+            p1:layout_column="4"
+            p1:id="@+id/two"
+            p1:layout_height="100dp"
+            p1:layout_width="100dp" />
+        <Button
+            p1:layout_column="5"
+            p1:id="@+id/three"
+            p1:layout_height="100dp"
+            p1:layout_width="100dp" />
+    </TableRow>
+    <TableRow
+        p1:id="@+id/tableRow2">
+        <Button
+            p1:layout_column="3"
+            p1:id="@+id/four"
+            p1:layout_height="100dp"
+            p1:layout_width="100dp" />
+        <Button
+            p1:layout_column="4"
+            p1:id="@+id/five"
+            p1:layout_height="100dp"
+            p1:layout_width="100dp" />
+        <Button
+            p1:layout_column="5"
+            p1:id="@+id/six"
+            p1:layout_height="100dp"
+            p1:layout_width="100dp" />
+        <TextView
+            p1:id="@+id/dialogue"
+            p1:layout_width="wrap_content"
+            p1:layout_height="wrap_content"
+            p1:text="Clique num botão para começar."
+            p1:gravity="center_horizontal"
+            p1:layout_marginTop="20px"
+            p1:textSize="15dp"
+            p1:textColor="#ff000000"
+            p1:typeface="monospace"
+            p1:textStyle="bold" />
+    </TableRow>
+    <TableRow
+        p1:id="@+id/tableRow3">
+        <Button
+            p1:layout_column="3"
+            p1:id="@+id/seven"
+            p1:layout_height="100dp"
+            p1:layout_width="100dp" />
+        <Button
+            p1:layout_column="4"
+            p1:id="@+id/eight"
+            p1:layout_height="100dp"
+            p1:layout_width="100dp" />
+        <Button
+            p1:layout_column="5"
+            p1:id="@+id/nine"
+            p1:layout_height="100dp"
+            p1:layout_width="100dp" />
+        <TextView
+            p1:id="@+id/pontuacao"
+            p1:layout_width="wrap_content"
+            p1:layout_height="wrap_content"
+            p1:text="Jogador 0 X 0 CPU"
+            p1:gravity="center_horizontal"
+            p1:layout_marginTop="20px"
+            p1:textSize="15dp"
+            p1:textColor="#ffffffff"
+            p1:typeface="monospace"
+            p1:textStyle="bold" />
+    </TableRow>
+</TableLayout>
